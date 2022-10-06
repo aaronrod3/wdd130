@@ -30,7 +30,7 @@ main section {
 
 #background {
     height: 725px;
-    background-color: gray;
+    background-color: tan;
 }
 
 body {
@@ -38,7 +38,7 @@ body {
 }
 
 header {
-    background-color: beige;
+    background-color: tan;
 }
 
 nav a:hover {
