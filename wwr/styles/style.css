@@ -35,6 +35,7 @@ main section {
 
 body {
     background-color: green;
+    color: white;
 }
 
 header {
@@ -49,7 +50,7 @@ nav a:hover {
     background-color: orange;
 }
 
-.book:hover, join:hover {
+.book:hover, .join:hover {
     background-color: yellow;
 }
 
