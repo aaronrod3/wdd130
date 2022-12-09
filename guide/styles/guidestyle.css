@@ -104,7 +104,7 @@ h1 {
 
 }
 
-/* Page 2 */
+/* Beach Access Page */
 
 .page2-grid {
     display: grid;
@@ -144,13 +144,58 @@ h1 {
     margin-right: auto;
 }
 
+/* Restaurant Page */
+
+.restaurants-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px;
+    text-align: center;
+    background-color: #92dccd;
+}
+
+#restaurants-msg {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+
+#agave-card {
+    grid-row: 2;
+    padding: 10px;
+}
+
+.agave-img {
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    max-height: 362px;
+
+}
+
+#splash-card {
+    padding: 10px;
+}
+
+#lobstah-card {
+    padding: 10px;
+}
+
+.maine-lobstah-img {
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    max-height: 293px;
+}
 
 /* Footer*/
 
 footer {
-    background-color: ;
+    background-color: #92dccd;
     padding: 25px 50px;
-    margin-top: 100px;
+    margin-top: 1px;
     display: flex;
     justify-content: space-around;
     align-items: center;
